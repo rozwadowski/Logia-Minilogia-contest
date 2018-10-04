@@ -1,3 +1,5 @@
+# http://logia.oeiizk.waw.pl/logia/page.php?sr=logia14/3etap
+
 def obok(n,p):
 	tab= [[[ 1+i+j*n+k*n**2 for k in range(n)]for j in range(n)] for i in range(n)]
 	cell = [ (i,j,k) for k in range(n)for j in range(n) for i in range(n) if tab[i][j][k]==p ][0]
